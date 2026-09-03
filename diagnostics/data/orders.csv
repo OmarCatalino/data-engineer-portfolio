@@ -1,0 +1,13 @@
+order_id,customer_name,product,quantity,price,order_date,status
+1001,Maria Gomez,Widget A,5,12.50,2026-01-04,Shipped
+1002,John Smith,Widget B,,9.99,2026-01-05,shipped
+1003,Aisha Khan,Widget A,3,12.50,2026-01-05,CANCELLED
+1004,Liu Wei,Widget C,10,4.25,2026-01-06,Shipped
+1005,Carlos Ruiz,Widget B,2,9.99,2026-01-06,Pending
+1006,Emma Davis,Widget A,,12.50,2026-01-07,cancelled
+1007,Noah Brown,Widget C,7,4.25,2026-01-07,Shipped
+1008,Sara Lee,Widget B,4,9.99,2026-01-08,shipped
+1009,Omar Vidal,Widget A,6,12.50,2026-01-08,Pending
+1010,Priya Patel,Widget C,,4.25,2026-01-09,Shipped
+1011,Tom Wilson,Widget B,1,9.99,2026-01-09,Cancelled
+1012,Grace Kim,Widget A,8,12.50,2026-01-10,Shipped

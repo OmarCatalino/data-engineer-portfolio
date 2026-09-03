@@ -1,0 +1,8 @@
+order_id,customer_name,product,quantity,price,order_date,status,total_price
+1001,Maria Gomez,Widget A,5,12.50,2026-01-04,Shipped,62.5
+1004,Liu Wei,Widget C,10,4.25,2026-01-06,Shipped,42.5
+1005,Carlos Ruiz,Widget B,2,9.99,2026-01-06,Pending,19.98
+1007,Noah Brown,Widget C,7,4.25,2026-01-07,Shipped,29.75
+1008,Sara Lee,Widget B,4,9.99,2026-01-08,shipped,39.96
+1009,Omar Vidal,Widget A,6,12.50,2026-01-08,Pending,75.0
+1012,Grace Kim,Widget A,8,12.50,2026-01-10,Shipped,100.0
