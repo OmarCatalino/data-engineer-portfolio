@@ -1,0 +1,16 @@
+company_name,contact_email,industry,employee_count,signup_date,status
+Acme Logistics,contact@acmelogistics.com,Transportation,150,2026-01-15,active
+Acme Logistics,contact@acmelogistics.com,Transportation,150,2026-01-15,active
+Bright Path Health,,Healthcare,45,2026-01-16,active
+Bright Path Health,info@brightpathhealth.com,healthcare ,45,2026-01-16,Active
+  Cargo Monterrey ,ops@cargomty.com,Transportation,"1,200",2026-01-17,active
+Delta Freight Co,hello@deltafreight.com,transportation,,2026-01-18,inactive
+Evergreen Manufacturing,contact@evergreenmfg.com,Manufacturing,320,01/19/2026,active
+Falcon Supply Chain,,Logistics,N/A,2026-01-20,active
+Falcon Supply Chain,info@falconsupply.com,Logistics,89,2026-01-20,active
+Granite Industrial,sales@graniteind.com,Manufacturing,210,2026-01-21,ACTIVE
+Harbor Trucking,contact@harbortrucking.com,transportation,"2,500",2026-01-22,active
+Ironclad Freight,,Transportation,60,2026-01-23,inactive
+Juniper Health Systems,info@juniperhealth.com,Healthcare,175,2026-01-24,active
+Juniper Health Systems,info@juniperhealth.com,Healthcare,175,2026-01-24,active
+Kestrel Logistics,ops@kestrel.com,logistics,,01/25/2026,active
