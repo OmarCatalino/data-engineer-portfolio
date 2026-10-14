@@ -1,0 +1,11 @@
+{
+  // Always use the project's virtual environment (has requests + pandas)
+  "python.defaultInterpreterPath": "${workspaceFolder}/nyc-311-pipeline/.venv/bin/python",
+
+  // New terminals auto-activate that venv -> you'll see (.venv) in the prompt
+  "python.terminal.activateEnvironment": true,
+
+  // The Run button executes the script from the script's own folder,
+  // so relative paths like data/output.csv land where you expect
+  "python.terminal.executeInFileDir": true
+}
