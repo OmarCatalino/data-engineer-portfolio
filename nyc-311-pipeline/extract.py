@@ -78,3 +78,19 @@ print("Shape:", df.shape)
 print("Earliest:", df["created_date"].min())
 print("Latest:  ", df["created_date"].max())
 print("Duplicate unique_keys:", df["unique_key"].duplicated().sum())
+
+# --- Land the raw data on disk ---
+from pathlib import Path
+
+RAW_DIR = Path(__file__).parent / "data" / "raw"
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+csv_path = RAW_DIR / f"nyc311_raw_{run_ts}.csv"
+parquet_path = RAW_DIR / f"nyc311_raw_{run_ts}.parquet"
+
+df.to_csv(csv_path, index=False)
+df.to_parquet(parquet_path, index=False)
+
+print("Saved CSV:    ", csv_path.name, f"{csv_path.stat().st_size / 1_000_000:.1f} MB")
+print("Saved Parquet:", parquet_path.name, f"{parquet_path.stat().st_size / 1_000_000:.1f} MB")
